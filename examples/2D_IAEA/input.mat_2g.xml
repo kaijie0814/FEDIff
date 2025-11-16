@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials ngroups="2">
+  <!-- 
+    Here we define the different materials associated to the
+    material id specified when defining the geometry 
+  -->
+  <mix id="0" e_width="9.179E+6 0.058E+0">
+    <name>fuel 1</name>
+    <SigmaT>
+      1.666667E-01  1.111111E+00;
+    </SigmaT>
+    <Chi>
+      0.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      4.00000E-02  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.000E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.00000E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  0.00000E+00;
+    </Nu>
+    <SigmaA>
+      0.00000E-02  1.00000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="1" e_width="9.179E+6 0.058E+0">
+    <name>fuel2</name>
+    <SigmaT>
+      1.66667E-01  1.111111E+00;
+    </SigmaT>
+    <Chi>
+      0.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      4.00000E-02  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.00000E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.00000E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  0.00000E+00;
+    </Nu>
+    <SigmaA>
+      0.00000E-02  5.50000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="2" e_width="9.179E+6 0.058E+0">
+    <name>exteriorFuel</name>
+    <SigmaT>
+      2.22222E-01  8.33333E-01;
+    </SigmaT>
+    <Chi>
+      0.00000E+00  1.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      2.00000E-02  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.13500E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.13500E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      1.00000E-02  8.00000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="3" e_width="9.179E+6 0.058E+0">
+    <name>interiorFuel</name>
+    <SigmaT>
+      2.22222E-01  8.33333E-01;
+    </SigmaT>
+    <Chi>
+      0.00000E+00  1.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      2.00000E-02  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.13500E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.13500E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      1.00000E-02  8.50000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="4" e_width="9.179E+6 0.058E+0">
+    <name>roddedFuel</name>
+    <SigmaT>
+      2.22222E-01  8.33333E-01;
+    </SigmaT>
+    <Chi>
+      0.00000E+00  1.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      2.00000E-02  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.13500E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.13500E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      1.00000E-02  1.30000E-01;
+    </SigmaA>
+  </mix>
+
+</materials>

@@ -1,0 +1,39 @@
+# Listing of Parameters
+# ---------------------
+
+# Polynomial degree of the finite element to be used
+set FE_Degree = 2
+
+# The number of energy different groups considered
+set Energy_Groups = 7
+
+# Number of adaptive mesh refinement
+set N_Refinements = 1
+
+# Refinement threshold for mesh refinement (0.0 ~ 1.0)
+# Lower value means more refinement
+set Refinement_Threshold = 0.05
+
+# Convergence tolerance for linear solver
+set Solver_Convergence = 1e-8
+
+# Convergence tolerance for power iteration
+set Convergence_Tolerance = 1e-8
+
+# Input geometry file in XML format
+set Geometry_Filename = ../examples/C5G7/input.geom_asmbly.xml
+
+# Input material file in XML format
+set Material_Filename = ../examples/C5G7/input.mat.xml
+
+# Number of global refinements
+set Global_Refinements = 0
+
+# Not executing calculation but only display output
+set Only_Output = false
+
+# Refinement mode (global/ adaptive/ energy_dependent)
+set Refinement_Mode = energy_dependent
+
+# Energy dependent mesh indicator
+set Knudsen_Number = 3.0 3.0 3.0

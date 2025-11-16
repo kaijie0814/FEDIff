@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials ngroups="2">
+  <!-- 
+    Here we define the different materials associated to the
+    material id specified when defining the geometry 
+  -->
+  <mix id="0" e_width="9.179E+6 0.058E+0">
+    <name>m1</name>
+    <SigmaT>
+      2.32126E-01 9.170105E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00587E+00  0.09607E+00;
+    </NuSigF>
+    <SigF>
+      0.00587E+00  0.09607E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.72600E-02  7.50600E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="1" e_width="9.179E+6 0.058E+0">
+    <name>m2</name>
+    <SigmaT>
+      2.32126E-01 9.170105E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00619E+00  0.10358E+00;
+    </NuSigF>
+    <SigF>
+      0.00619E+00  0.10358E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.73000E-02  7.84400E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="2" e_width="9.179E+6 0.058E+0">
+    <name>m3</name>
+    <SigmaT>
+      2.525252E-01 1.20250E+00;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.00000E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.00000E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  0.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.57600E-02  7.16000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="3" e_width="9.179E+6 0.058E+0">
+    <name>m4</name>
+    <SigmaT>
+      2.31658E-01 9.16254E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      7.45000E-03  0.13236E+00;
+    </NuSigF>
+    <SigF>
+      7.45000E-03  0.13236E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.74600E-02  9.14100E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="4" e_width="9.179E+6 0.058E+0">
+    <name>m5</name>
+    <SigmaT>
+      2.31787E-01  9.09504E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      6.19000E-03  0.10358E+00;
+    </NuSigF>
+    <SigF>
+      6.19000E-03  0.10358E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.72900E-02  8.48300E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="5" e_width="9.179E+6 0.058E+0">
+    <name>m6</name>
+    <SigmaT>
+      2.31723E-01  9.09504E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      6.43000E-03  0.10911E+00;
+    </NuSigF>
+    <SigF>
+      6.43000E-03  0.10911E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.73200E-02  8.73100E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="6" e_width="9.179E+6 0.058E+0">
+    <name>m7</name>
+    <SigmaT>
+      2.31787E-01  9.06043E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      6.19000E-03  0.10358E+00;
+    </NuSigF>
+    <SigF>
+      6.19000E-03  0.10358E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.72900E-02  8.80240E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="7" e_width="9.179E+6 0.058E+0">
+    <name>m8</name>
+    <SigmaT>
+      2.31594E-01  9.09504E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.00000E+00  0.00000E+00;
+      0.00000E+00  0.00000E+00;
+    </SigmaS>
+    <NuSigF>
+      6.43000E-03  0.10911E+00;
+    </NuSigF>
+    <SigF>
+      6.43000E-03  0.10911E+00;
+    </SigF>
+    <Nu>
+      1.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      2.76200E-02  9.05100E-02;
+    </SigmaA>
+  </mix>
+
+</materials>

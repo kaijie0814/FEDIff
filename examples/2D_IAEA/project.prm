@@ -1,0 +1,48 @@
+# Listing of Parameters
+# ---------------------
+
+# Polynomial degree of the finite element to be used
+set FE_Degree = 2
+
+# The number of energy different groups considered
+set Energy_Groups = 2
+
+# Number of adaptive mesh refinement
+set N_Refinements = 1
+
+# Refinement threshold for mesh refinement (0.0 ~ 1.0)
+# Lower value means more refinement
+set Refinement_Threshold = 0.05
+
+# Convergence tolerance for linear solver
+set Solver_Convergence = 1e-8
+
+# Convergence tolerance for power iteration
+set Convergence_Tolerance = 1e-8
+
+# Input geometry file in XML format
+set Geometry_Filename = ../examples/2D_IAEA/input.geom_2g copy.xml
+
+# Input material file in XML format
+set Material_Filename = ../examples/2D_IAEA/input.mat_2g copy.xml
+
+# Number of global refinements
+set Global_Refinements = 0
+
+# Not executing calculation but only display output
+set Only_Output = false
+
+# Refinement mode (adaptive/ energy_dependence)
+set Refinement_Mode = energy_dependence
+
+# Energy dependent mesh indicator
+set Knudsen_Number = 1
+
+# Error mode (fine/ coarse)
+set Error_Mode = fine
+
+# Input file for fine solution
+#set Fine_Solution_Input = ../examples/
+
+# Input file for fine solution grid
+#set Fine_Grid_Input = 

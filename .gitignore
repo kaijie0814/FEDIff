@@ -1,0 +1,5 @@
+/build-debug/
+/build-release/
+/.vscode/
+*.tri
+*.vec

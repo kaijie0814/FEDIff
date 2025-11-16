@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials ngroups="2">
+  <!-- 
+    Here we define the different materials associated to the
+    material id specified when defining the geometry 
+  -->
+  <mix id="0" e_width="9.179E+6 0.058E+0">
+    <name>fuel1</name>
+    <SigmaT>
+      2.22222E-01  8.33333E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.19222E+00  0.00000E+00;
+      0.02000E+00  7.53333E-01;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  1.35000E-01;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  1.35000E-01;
+    </SigF>
+    <Nu>
+      0.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      1.00000E-02  8.00000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="1" e_width="9.179E+6 0.058E+0">
+    <name>fuel2</name>
+    <SigmaT>
+      2.22222E-01  8.33333E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.19222E+00  0.00000E+00;
+      0.02000E+00  7.48333E-01;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  1.35000E-01;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  1.35000E-01;
+    </SigF>
+    <Nu>
+      0.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      1.00000E-02  8.50000E-02;
+    </SigmaA>
+  </mix>
+
+  <mix id="2" e_width="9.179E+6 0.058E+0">
+    <name>fuel2rod</name>
+    <SigmaT>
+      2.22222E-01  8.33333E-01;
+    </SigmaT>
+    <Chi>
+      1.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      0.19222E+00  0.00000E+00;
+      0.02000E+00  7.03333E-01;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  1.35000E-01;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  1.35000E-01;
+    </SigF>
+    <Nu>
+      0.00000E+00  1.00000E+00;
+    </Nu>
+    <SigmaA>
+      1.00000E-02  1.30000E-01;
+    </SigmaA>
+  </mix>
+
+  <mix id="3" e_width="9.179E+6 0.058E+0">
+    <name>reflector</name>
+    <SigmaT>
+      1.66667E-01  1.11111E+00;
+    </SigmaT>
+    <Chi>
+      0.00000E+00  0.00000E+00;
+    </Chi>
+    <SigmaS>  
+      1.26667E-01  0.00000E+00;
+      4.00000E-02  1.10111E+00;
+    </SigmaS>
+    <NuSigF>
+      0.00000E+00  0.00000E+00;
+    </NuSigF>
+    <SigF>
+      0.00000E+00  0.00000E+00;
+    </SigF>
+    <Nu>
+      0.00000E+00  0.00000E+00;
+    </Nu>
+    <SigmaA>
+      0.00000E+00  1.00000E-02;
+    </SigmaA>
+  </mix>
+
+</materials>

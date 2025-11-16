@@ -1,0 +1,31 @@
+# Listing of Parameters
+# ---------------------
+
+# Polynomial degree of the finite element to be used
+set FE_Degree = 2
+
+# The number of energy different groups considered
+set Energy_Groups = 7
+
+# Number of adaptive mesh refinement
+set N_Refinements = 3
+
+# Inner power iterations are stopped when the change in k_eff falls below this
+# tolerance
+set Convergence_Tolerance = 1e-6
+
+# Input geometry file in XML format
+set Geometry_Filename = input.geom_pin.xml
+
+# Input triangulation file in TRI format
+# set Triangulation_Filename = mesh_ref1_asmbly.tri
+
+# Input material file in XML format
+set Material_Filename = input.mat.xml
+
+# Number of global refinements
+set Global_Refinements = 1
+
+# Not executing calculation but only display output
+set Only_Output = true
+

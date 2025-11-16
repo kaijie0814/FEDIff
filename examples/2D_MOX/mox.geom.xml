@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<geometry>
+  
+  <!-- 
+    This geometry is composed of nested structures. The first definition
+    is for the core, which is composed by assemblies, which are composed
+    by pins. 
+  -->
+  
+  <!-- Here is the core description-->
+  <core composed="true">
+    <name>MOX</name>
+    <dimension> 2 </dimension>
+    <n_planes> 1 </n_planes> <!-- xnodes ynodes znodes -->
+    <components> 0 </components>
+    <boundary> <!-- 0-ZeroFlux, 1-ZeroCurrent, 2-Vaccum, 3-Albedo -->
+      2  2; <!-- X- X+ AXIS -->
+      2  2; <!-- Y- Y+ AXIS -->
+    </boundary>
+  </core>
+  <!-- Here is the lattice description -->
+  <planes>
+    <plane id="0">
+      <name>Core</name>
+      <n_nodes> 9 9 </n_nodes> <!-- xnodes ynodes znodes -->
+      <length>
+        192.78; <!-- X AXIS -->
+        192.78; <!-- Y AXIS -->
+      </length>
+      <components> <!-- PIN or BOX or PCNW PCNE PCSW PCSE -->
+       2  2  2  2  2  2  2  2  2 ;
+       2  1  1  1  1  1  1  1  2 ;
+       2  1  1  1  0  1  1  1  2 ;
+       2  1  1  0  1  0  1  1  2 ;
+       2  1  0  1  0  1  0  1  2 ;
+       2  1  1  0  1  0  1  1  2 ;
+       2  1  1  1  0  1  1  1  2 ;
+       2  1  1  1  1  1  1  1  2 ;
+       2  2  2  2  2  2  2  2  2 ;
+      </components>
+    </plane>
+  </planes>
+
+  <!-- Here is the pin description -->
+  <pins>
+    <pin id="0">
+      <name>mox fuel</name>
+      <type>box</type> 
+      <materials>0</materials> 
+      <pitch>21.42</pitch>
+    </pin>
+    
+    <pin id="1">
+      <name>uo2 fuel</name>
+      <type>box</type> 
+      <materials>1</materials> 
+      <pitch>21.42</pitch>
+    </pin>
+
+    <pin id="2">
+      <name>reflector</name>
+      <type>box</type> 
+      <materials>2</materials> 
+      <pitch>21.42</pitch>
+    </pin>
+  </pins>
+  
+</geometry>
