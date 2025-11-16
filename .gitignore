@@ -3,3 +3,5 @@
 /.vscode/
 *.tri
 *.vec
+*.prm
+FEDiff
